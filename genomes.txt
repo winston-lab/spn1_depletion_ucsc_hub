@@ -1,5 +1,5 @@
 genome s_cerevisiae_R64-2-1
-trackDb s_cerevisiae_R64-2-1/trackDB.txt
+trackDb s_cerevisiae_R64-2-1/trackDb.txt
 twoBitPath s_cerevisiae_R64-2-1/S_cerevisiae.R64-2-1.2bit
 #groups
 description S. cerevisiae R64-2-1
