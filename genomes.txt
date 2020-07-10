@@ -1,0 +1,7 @@
+genome s_cerevisiae_R64-2-1
+trackDb s_cerevisiae_R64-2-1/trackDB.txt
+twoBitPath s_cerevisiae_R64-2-1/S_cerevisiae.R64-2-1.2bit
+#groups
+description S. cerevisiae R64-2-1
+organism Saccharomyces cerevisiae
+defaultPos chrV:67396-69025

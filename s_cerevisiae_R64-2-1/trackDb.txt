@@ -1,0 +1,5 @@
+track test
+bigDataUrl track_data_URL
+shortLabel short_label
+longLabel long_label
+type bigWig

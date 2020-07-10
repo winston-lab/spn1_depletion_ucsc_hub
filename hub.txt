@@ -1,0 +1,5 @@
+hub spn1_depletion
+shortLabel Spn1 depletion
+longLabel S. cerevisiae Spn1 depletion hub
+genomesFile genomes.txt
+email james-chuang@hms.harvard.edu
