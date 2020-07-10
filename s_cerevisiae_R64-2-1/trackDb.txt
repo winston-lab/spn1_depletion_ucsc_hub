@@ -4,6 +4,8 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel short_label
 longLabel long_label
+autoscale group
+viewLimits -6:6
 type bigWig
 
     track nd_test
