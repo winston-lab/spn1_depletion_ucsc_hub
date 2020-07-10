@@ -1,5 +1,5 @@
 track test
-bigDataUrl track_data_URL
+bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-dmso-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
 shortLabel short_label
 longLabel long_label
 type bigWig
