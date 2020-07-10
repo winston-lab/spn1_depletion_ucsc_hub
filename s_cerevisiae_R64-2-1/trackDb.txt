@@ -1,5 +1,11 @@
-track test
-bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-dmso-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
+track nd_test
+bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-Spn1-IP-1_Spn1-chipseq-spikenorm-ratio.bw?raw=true
+shortLabel short_label
+longLabel long_label
+type bigWig
+
+track d_test
+bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-Spn1-IP-1_Spn1-chipseq-spikenorm-ratio.bw?raw=true
 shortLabel short_label
 longLabel long_label
 type bigWig
