@@ -1,7 +1,7 @@
 ###############################
 track polIItranscripts
 type bigBed
-bigDataUrl
+bigDataUrl https://raw.githubusercontent.com/winston-lab/spn1_depletion_ucsc_hub/master/s_cerevisiae_R64-2-1/Scer_polIItranscripts-adjustedTSS.bed
 
 ###############################
 track chipseq_spn1
