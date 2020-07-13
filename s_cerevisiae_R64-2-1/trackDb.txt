@@ -6,7 +6,7 @@ shortLabel PolII transcripts
 longLabel PolII transcripts
 colorByStrand 0,0,0 0,0,255
 visibility full
-priority 0
+priority 1
 
 ###############################
 track chipseq_spn1
@@ -19,7 +19,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 1
+priority 2
 
     track chipseq_spn1_nondep_1
     parent chipseq_spn1
@@ -72,7 +72,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 2
+priority 3
 
     track chipseq_rpb1_nondep_1
     parent chipseq_rpb1
@@ -165,7 +165,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 3
+priority 4
 
     track chipseq_ser5p_nondep_1
     parent chipseq_ser5p
@@ -218,7 +218,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 4
+priority 5
 
     track chipseq_ser2p_nondep_1
     parent chipseq_ser2p
@@ -271,7 +271,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 5
+priority 6
 
     track chipseq_spt6_nondep_1
     parent chipseq_spt6
@@ -324,7 +324,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 6
+priority 7
 
     track chipseq_set2_nondep_1
     parent chipseq_set2
@@ -377,7 +377,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 7
+priority 8
 
     track chipseq_h3_nondep_1
     parent chipseq_h3
@@ -470,7 +470,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 8
+priority 9
 
     track chipseq_h3k4me3_nondep_1
     parent chipseq_h3k4me3
@@ -523,7 +523,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 9
+priority 10
 
     track chipseq_h3k36me2_nondep_1
     parent chipseq_h3k36me2
@@ -576,7 +576,7 @@ autoScale off
 viewLimits -6:6
 visibility full
 type bigWig
-priority 10
+priority 11
 
     track chipseq_h3k36me3_nondep_1
     parent chipseq_h3k36me3
@@ -628,7 +628,7 @@ longLabel wild type RNA-seq
 autoScale group
 visibility full
 type bigWig
-priority 11
+priority 12
 
     track rnaseq_wildtype_dmso_1_plus
     parent rnaseq_wildtype_plus
@@ -676,7 +676,7 @@ longLabel wild type RNA-seq
 autoScale group
 visibility full
 type bigWig
-priority 12
+priority 13
 
     track rnaseq_wildtype_dmso_1_minus
     parent rnaseq_wildtype_minus
@@ -724,7 +724,7 @@ longLabel noAID RNA-seq
 autoScale group
 visibility full
 type bigWig
-priority 13
+priority 14
 
     track rnaseq_noAID_dmso_1_plus
     parent rnaseq_noAID_plus
@@ -772,7 +772,7 @@ longLabel noAID RNA-seq
 autoScale group
 visibility full
 type bigWig
-priority 14
+priority 15
 
     track rnaseq_noAID_dmso_1_minus
     parent rnaseq_noAID_minus
@@ -820,7 +820,7 @@ longLabel spn1AID RNA-seq
 autoScale group
 visibility full
 type bigWig
-priority 15
+priority 16
 
     track rnaseq_spn1AID_dmso_1_plus
     parent rnaseq_spn1AID_plus
@@ -868,7 +868,7 @@ longLabel spn1AID RNA-seq
 autoScale group
 visibility full
 type bigWig
-priority 16
+priority 17
 
     track rnaseq_spn1AID_dmso_1_minus
     parent rnaseq_spn1AID_minus
