@@ -245,3 +245,355 @@ type bigWig
     type bigWig
     color 255,0,0
     altColor 255,0,0
+
+###############################
+track chipseq_spt6
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel Spt6 ChIP-seq
+longLabel Spt6 ChIP-seq, log2 IP/input
+autoscale group
+viewLimits -6:6
+visibility full
+type bigWig
+
+    track chipseq_spt6_nondep_1
+    parent chipseq_spt6
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-Spt6-IP-1_Spt6-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Spt6 ChIP-seq
+    longLabel non-depleted Spt6 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_spt6_nondep_2
+    parent chipseq_spt6
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-Spt6-IP-2_Spt6-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Spt6 ChIP-seq
+    longLabel non-depleted Spt6 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_spt6_spn1dep_1
+    parent chipseq_spt6
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-Spt6-IP-1_Spt6-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Spt6 ChIP-seq
+    longLabel Spn1-depleted Spt6 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track chipseq_spt6_spn1dep_2
+    parent chipseq_spt6
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-Spt6-IP-2_Spt6-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Spt6 ChIP-seq
+    longLabel Spn1-depleted Spt6 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+###############################
+track chipseq_set2
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel Set2 ChIP-seq
+longLabel Set2 ChIP-seq, log2 IP/input
+autoscale group
+viewLimits -6:6
+visibility full
+type bigWig
+
+    track chipseq_set2_nondep_1
+    parent chipseq_set2
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-Set2-IP-1_Set2-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Set2 ChIP-seq
+    longLabel non-depleted Set2 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_set2_nondep_2
+    parent chipseq_set2
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-Set2-IP-2_Set2-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Set2 ChIP-seq
+    longLabel non-depleted Set2 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_set2_spn1dep_1
+    parent chipseq_set2
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-Set2-IP-1_Set2-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Set2 ChIP-seq
+    longLabel Spn1-depleted Set2 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track chipseq_set2_spn1dep_2
+    parent chipseq_set2
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-Set2-IP-2_Set2-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Set2 ChIP-seq
+    longLabel Spn1-depleted Set2 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+###############################
+track chipseq_h3
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel H3 ChIP-seq
+longLabel H3 ChIP-seq, log2 IP/input
+autoscale group
+viewLimits -6:6
+visibility full
+type bigWig
+
+    track chipseq_h3_nondep_1
+    parent chipseq_h3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3-IP-1_H3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3 ChIP-seq
+    longLabel non-depleted H3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3_nondep_2
+    parent chipseq_h3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3-IP-2_H3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3 ChIP-seq
+    longLabel non-depleted H3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3_nondep_3
+    parent chipseq_h3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3-IP-3_H3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3 ChIP-seq
+    longLabel non-depleted H3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3_nondep_4
+    parent chipseq_h3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3-IP-4_H3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3 ChIP-seq
+    longLabel non-depleted H3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3_spn1dep_1
+    parent chipseq_h3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3-IP-1_H3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3 ChIP-seq
+    longLabel Spn1-depleted H3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track chipseq_h3_spn1dep_2
+    parent chipseq_h3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3-IP-2_H3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3 ChIP-seq
+    longLabel Spn1-depleted H3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track chipseq_h3_spn1dep_3
+    parent chipseq_h3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3-IP-3_H3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3 ChIP-seq
+    longLabel Spn1-depleted H3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track chipseq_h3_spn1dep_4
+    parent chipseq_h3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3-IP-4_H3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3 ChIP-seq
+    longLabel Spn1-depleted H3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+###############################
+track chipseq_h3k4me3
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel H3K4me3 ChIP-seq
+longLabel H3K4me3 ChIP-seq, log2 IP/input
+autoscale group
+viewLimits -6:6
+visibility full
+type bigWig
+
+    track chipseq_h3k4me3_nondep_1
+    parent chipseq_h3k4me3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3K4me3-IP-1_H3K4me3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K4me3 ChIP-seq
+    longLabel non-depleted H3K4me3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3k4me3_nondep_2
+    parent chipseq_h3k4me3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3K4me3-IP-2_H3K4me3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K4me3 ChIP-seq
+    longLabel non-depleted H3K4me3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3k4me3_spn1dep_1
+    parent chipseq_h3k4me3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3K4me3-IP-1_H3K4me3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K4me3 ChIP-seq
+    longLabel Spn1-depleted H3K4me3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track chipseq_h3k4me3_spn1dep_2
+    parent chipseq_h3k4me3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3K4me3-IP-2_H3K4me3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K4me3 ChIP-seq
+    longLabel Spn1-depleted H3K4me3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+###############################
+track chipseq_h3k36me2
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel H3K36me2 ChIP-seq
+longLabel H3K36me2 ChIP-seq, log2 IP/input
+autoscale group
+viewLimits -6:6
+visibility full
+type bigWig
+
+    track chipseq_h3k36me2_nondep_1
+    parent chipseq_h3k36me2
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3K36me2-IP-1_H3K36me2-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K36me2 ChIP-seq
+    longLabel non-depleted H3K36me2 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3k36me2_nondep_2
+    parent chipseq_h3k36me2
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3K36me2-IP-2_H3K36me2-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K36me2 ChIP-seq
+    longLabel non-depleted H3K36me2 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3k36me2_spn1dep_1
+    parent chipseq_h3k36me2
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3K36me2-IP-1_H3K36me2-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K36me2 ChIP-seq
+    longLabel Spn1-depleted H3K36me2 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track chipseq_h3k36me2_spn1dep_2
+    parent chipseq_h3k36me2
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3K36me2-IP-2_H3K36me2-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K36me2 ChIP-seq
+    longLabel Spn1-depleted H3K36me2 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+###############################
+track chipseq_h3k36me3
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel H3K36me3 ChIP-seq
+longLabel H3K36me3 ChIP-seq, log2 IP/input
+autoscale group
+viewLimits -6:6
+visibility full
+type bigWig
+
+    track chipseq_h3k36me3_nondep_1
+    parent chipseq_h3k36me3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3K36me3-IP-1_H3K36me3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K36me3 ChIP-seq
+    longLabel non-depleted H3K36me3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3k36me3_nondep_2
+    parent chipseq_h3k36me3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-H3K36me3-IP-2_H3K36me3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K36me3 ChIP-seq
+    longLabel non-depleted H3K36me3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_h3k36me3_spn1dep_1
+    parent chipseq_h3k36me3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3K36me3-IP-1_H3K36me3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K36me3 ChIP-seq
+    longLabel Spn1-depleted H3K36me3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track chipseq_h3k36me3_spn1dep_2
+    parent chipseq_h3k36me3
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-H3K36me3-IP-2_H3K36me3-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel H3K36me3 ChIP-seq
+    longLabel Spn1-depleted H3K36me3 ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
