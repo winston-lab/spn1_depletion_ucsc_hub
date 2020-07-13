@@ -5,6 +5,7 @@ bigDataUrl https://raw.githubusercontent.com/winston-lab/spn1_depletion_ucsc_hub
 shortLabel PolII transcripts
 longLabel PolII transcripts
 visibility full
+priority 0
 
 ###############################
 track chipseq_spn1
