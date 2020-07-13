@@ -607,3 +607,55 @@ priority 10
     type bigWig
     color 255,0,0
     altColor 255,0,0
+
+###############################
+track rnaseq_wildtype_plus
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel wild type RNA-seq, plus strand
+longLabel wild type RNA-seq, plus strand
+autoscale group
+visibility full
+type bigWig
+priority 11
+
+    track rnaseq_wildtype_dmso_1_plus
+    parent rnaseq_wildtype_plus
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-dmso-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
+    shortLabel wild type RNA-seq, plus strand
+    longLabel wild type + DMSO RNA-seq, plus strand
+    graphTypeDefault bar
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track rnaseq_wildtype_dmso_2_plus
+    parent rnaseq_wildtype_plus
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-dmso-2_rnaseq-wholeread-spikenorm-plus.bw?raw=true
+    shortLabel wild type RNA-seq, plus strand
+    longLabel wild type + DMSO RNA-seq, plus strand
+    graphTypeDefault bar
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track rnaseq_wildtype_iaa_1_plus
+    parent rnaseq_wildtype_plus
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-iaa-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
+    shortLabel wild type RNA-seq, plus strand
+    longLabel wild type + IAA RNA-seq, plus strand
+    graphTypeDefault bar
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track rnaseq_wildtype_iaa_2_plus
+    parent rnaseq_wildtype_plus
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-iaa-2_rnaseq-wholeread-spikenorm-plus.bw?raw=true
+    shortLabel wild type RNA-seq, plus strand
+    longLabel wild type + IAA RNA-seq, plus strand
+    graphTypeDefault bar
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
