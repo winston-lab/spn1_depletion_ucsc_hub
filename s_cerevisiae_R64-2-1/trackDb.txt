@@ -563,7 +563,7 @@ showSubtrackColorOnUi on
 shortLabel H3K36me3 ChIP-seq
 longLabel H3K36me3 ChIP-seq, log2 IP/input
 autoScale group
-viewLimits -6:6
+viewLimitsMax -6:6
 visibility full
 type bigWig
 priority 10
