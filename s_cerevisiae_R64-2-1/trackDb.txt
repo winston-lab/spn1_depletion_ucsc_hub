@@ -59,6 +59,7 @@ shortLabel Rpb1 ChIP-seq
 longLabel Rpb1 ChIP-seq, log2 IP/input
 autoscale group
 viewLimits -6:6
+visibility full
 type bigWig
 
     track chipseq_rpb1_nondep_1
@@ -69,6 +70,7 @@ type bigWig
     graphTypeDefault points
     type bigWig
     color 0,0,0
+    altColor 0,0,0
 
     track chipseq_rpb1_nondep_2
     parent chipseq_rpb1
@@ -78,6 +80,7 @@ type bigWig
     graphTypeDefault points
     type bigWig
     color 0,0,0
+    altColor 0,0,0
 
     track chipseq_rpb1_nondep_3
     parent chipseq_rpb1
@@ -87,6 +90,7 @@ type bigWig
     graphTypeDefault points
     type bigWig
     color 0,0,0
+    altColor 0,0,0
 
     track chipseq_rpb1_nondep_4
     parent chipseq_rpb1
@@ -96,6 +100,7 @@ type bigWig
     graphTypeDefault points
     type bigWig
     color 0,0,0
+    altColor 0,0,0
 
     track chipseq_rpb1_spn1dep_1
     parent chipseq_rpb1
@@ -105,6 +110,7 @@ type bigWig
     graphTypeDefault points
     type bigWig
     color 255,0,0
+    altColor 255,0,0
 
     track chipseq_rpb1_spn1dep_2
     parent chipseq_rpb1
@@ -114,6 +120,7 @@ type bigWig
     graphTypeDefault points
     type bigWig
     color 255,0,0
+    altColor 255,0,0
 
     track chipseq_rpb1_spn1dep_3
     parent chipseq_rpb1
@@ -123,6 +130,7 @@ type bigWig
     graphTypeDefault points
     type bigWig
     color 255,0,0
+    altColor 255,0,0
 
     track chipseq_rpb1_spn1dep_4
     parent chipseq_rpb1
@@ -132,3 +140,56 @@ type bigWig
     graphTypeDefault points
     type bigWig
     color 255,0,0
+    altColor 255,0,0
+
+###############################
+track chipseq_ser5p
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel Ser5P ChIP-seq
+longLabel Ser5P ChIP-seq, log2 IP/input
+autoscale group
+viewLimits -6:6
+visibility full
+type bigWig
+
+    track chipseq_ser5p_nondep_1
+    parent chipseq_ser5p
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-Ser5P-IP-1_Ser5P-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Ser5P ChIP-seq
+    longLabel non-depleted Ser5P ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_ser5p_nondep_2
+    parent chipseq_ser5p
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/non-depleted-Ser5P-IP-2_Ser5P-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Ser5P ChIP-seq
+    longLabel non-depleted Ser5P ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 0,0,0
+    altColor 0,0,0
+
+    track chipseq_ser5p_spn1dep_1
+    parent chipseq_ser5p
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-Ser5P-IP-1_Ser5P-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Ser5P ChIP-seq
+    longLabel Spn1-depleted Ser5P ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
+
+    track chipseq_ser5p_spn1dep_2
+    parent chipseq_ser5p
+    bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/depleted-Ser5P-IP-2_Ser5P-chipseq-spikenorm-ratio.bw?raw=true
+    shortLabel Ser5P ChIP-seq
+    longLabel Spn1-depleted Ser5P ChIP-seq, log2 IP/input
+    graphTypeDefault points
+    type bigWig
+    color 255,0,0
+    altColor 255,0,0
