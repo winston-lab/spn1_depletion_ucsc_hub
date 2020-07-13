@@ -625,7 +625,7 @@ priority 11
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-dmso-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel wild type RNA-seq
     longLabel wild type + DMSO RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -634,7 +634,7 @@ priority 11
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-dmso-2_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel wild type RNA-seq
     longLabel wild type + DMSO RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -643,7 +643,7 @@ priority 11
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-iaa-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel wild type RNA-seq
     longLabel wild type + IAA RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -652,7 +652,7 @@ priority 11
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-iaa-2_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel wild type RNA-seq
     longLabel wild type + IAA RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -673,7 +673,7 @@ priority 12
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-dmso-1_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel wild type RNA-seq
     longLabel wild type + DMSO RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -682,7 +682,7 @@ priority 12
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-dmso-2_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel wild type RNA-seq
     longLabel wild type + DMSO RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -691,7 +691,7 @@ priority 12
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-iaa-1_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel wild type RNA-seq
     longLabel wild type + IAA RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -700,7 +700,7 @@ priority 12
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/wt-iaa-2_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel wild type RNA-seq
     longLabel wild type + IAA RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -721,7 +721,7 @@ priority 13
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/noAID-dmso-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel noAID RNA-seq
     longLabel noAID + DMSO RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -730,7 +730,7 @@ priority 13
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/noAID-dmso-2_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel noAID RNA-seq
     longLabel noAID + DMSO RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -739,7 +739,7 @@ priority 13
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/noAID-iaa-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel noAID RNA-seq
     longLabel noAID + IAA RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -748,7 +748,7 @@ priority 13
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/noAID-iaa-2_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel noAID RNA-seq
     longLabel noAID + IAA RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -769,7 +769,7 @@ priority 14
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/noAID-dmso-1_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel noAID RNA-seq
     longLabel noAID + DMSO RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -778,7 +778,7 @@ priority 14
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/noAID-dmso-2_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel noAID RNA-seq
     longLabel noAID + DMSO RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -787,7 +787,7 @@ priority 14
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/noAID-iaa-1_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel noAID RNA-seq
     longLabel noAID + IAA RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -796,7 +796,7 @@ priority 14
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/noAID-iaa-2_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel noAID RNA-seq
     longLabel noAID + IAA RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -817,7 +817,7 @@ priority 15
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/spn1-dmso-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel spn1AID RNA-seq
     longLabel spn1AID + DMSO RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -826,7 +826,7 @@ priority 15
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/spn1-dmso-2_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel spn1AID RNA-seq
     longLabel spn1AID + DMSO RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -835,7 +835,7 @@ priority 15
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/spn1-iaa-1_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel spn1AID RNA-seq
     longLabel spn1AID + IAA RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -844,7 +844,7 @@ priority 15
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/spn1-iaa-2_rnaseq-wholeread-spikenorm-plus.bw?raw=true
     shortLabel spn1AID RNA-seq
     longLabel spn1AID + IAA RNA-seq, plus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -865,7 +865,7 @@ priority 16
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/spn1-dmso-1_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel spn1AID RNA-seq
     longLabel spn1AID + DMSO RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -874,7 +874,7 @@ priority 16
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/spn1-dmso-2_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel spn1AID RNA-seq
     longLabel spn1AID + DMSO RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 0,0,0
 
@@ -883,7 +883,7 @@ priority 16
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/spn1-iaa-1_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel spn1AID RNA-seq
     longLabel spn1AID + IAA RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
 
@@ -892,6 +892,6 @@ priority 16
     bigDataUrl https://github.com/winston-lab/spn1_depletion_ucsc_hub/blob/master/s_cerevisiae_R64-2-1/spn1-iaa-2_rnaseq-wholeread-spikenorm-minus.bw?raw=true
     shortLabel spn1AID RNA-seq
     longLabel spn1AID + IAA RNA-seq, minus strand
-    graphTypeDefault bar
+    graphTypeDefault points
     type bigWig
     color 255,0,0
