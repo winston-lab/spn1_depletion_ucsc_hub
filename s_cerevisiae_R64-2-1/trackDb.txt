@@ -5,7 +5,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel Spn1 ChIP-seq
 longLabel Spn1 ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -58,7 +58,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel Rpb1 ChIP-seq
 longLabel Rpb1 ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -151,7 +151,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel Ser5P ChIP-seq
 longLabel Ser5P ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -204,7 +204,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel Ser2P ChIP-seq
 longLabel Ser2P ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -257,7 +257,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel Spt6 ChIP-seq
 longLabel Spt6 ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -310,7 +310,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel Set2 ChIP-seq
 longLabel Set2 ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -363,7 +363,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel H3 ChIP-seq
 longLabel H3 ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -456,7 +456,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel H3K4me3 ChIP-seq
 longLabel H3K4me3 ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -509,7 +509,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel H3K36me2 ChIP-seq
 longLabel H3K36me2 ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -562,7 +562,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel H3K36me3 ChIP-seq
 longLabel H3K36me3 ChIP-seq, log2 IP/input
-autoscale group
+autoScale group
 viewLimits -6:6
 visibility full
 type bigWig
@@ -615,7 +615,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 shortLabel wild type RNA-seq, plus strand
 longLabel wild type RNA-seq, plus strand
-autoscale group
+autoScale group
 visibility full
 type bigWig
 priority 11
