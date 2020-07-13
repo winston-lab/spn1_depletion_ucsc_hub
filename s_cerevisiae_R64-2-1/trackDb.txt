@@ -321,7 +321,7 @@ showSubtrackColorOnUi on
 shortLabel Set2 ChIP-seq
 longLabel Set2 ChIP-seq, log2 IP/input
 autoScale off
-viewLimits -6:6
+viewLimits -6:0
 visibility full
 type bigWig
 priority 7
